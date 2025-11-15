@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneClickTrip</title>
+    <link rel="stylesheet" href="onclicktrip.css">
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <div class="header">
+        <span  onclick="location.href='index.html'" class="back-arrow">←</span>
+        
+        <img src="icons/intelliverse.jpg" class="header-icon" alt="" onclick="location.href='index.html'">
+        <h1 class="header-title">OneClickTrip</h1>
+        <span class="info-icon">i</span>
+    </div>
+
+    <!-- Main Page -->
+    <div class="content">
+
+        <!-- TEXT AREA -->
+        <label class="label-title">Text</label>
+        <div class="box">
+            <textarea class="textbox">
+I want a 3-day relaxing and cultural trip with historical sites, local food, light walking, and a mix of guided and self-paced activities in one city or nearby.
+            </textarea>
+        </div>
+
+        <!-- BUTTON ROW -->
+        <div class="button-row">
+            <button class="circle-btn">📷</button>
+            <button class="circle-btn">🖼️</button>
+            <button class="circle-btn">✏️</button>
+            <button class="main-btn">▶</button>
+        </div>
+
+        <!-- SETTINGS -->
+        <h2 class="settings-title">Settings</h2>
+
+        <!-- SOLUTION LANGUAGE -->
+        <label class="label-title">Solution language</label>
+        <div class="box">
+            <select class="select">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>Swahili</option>
+                <option>Not Relevant</option>
+            </select>
+        </div>
+
+        <!-- ORIGIN LOCATION -->
+        <label class="label-title">Origin location</label>
+        <div class="box">
+            <input type="text" class="input" placeholder="Origin location">
+        </div>
+
+        <!-- TRAVEL PATH -->
+        <label class="label-title">Travel Path</label>
+        <div class="travel-row">
+            <input type="text" class="input" placeholder="Enter location">
+            <button class="add-btn">Add</button>
+        </div>
+
+        <!-- TRIP TYPE -->
+        <label class="label-title">Trip type</label>
+        <div class="box">
+            <select class="select">
+                <option>Round trip</option>
+                <option>One way</option>
+                <option>Multi-city</option>
+                <option>Not Relevant</option>
+            </select>
+        </div>
+
+        <!-- NUMBER OF TRAVELERS -->
+        <label class="label-title">Number of travelers</label>
+        <div class="box">
+            <select class="select">
+                <option>Not Relevant</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+            </select>
+        </div>
+
+        <!-- TRIP DURATION -->
+        <label class="label-title">Trip duration</label>
+        <div class="duration">
+            <input type="number" class="input" value="3">
+            <span class="days">days</span>
+        </div>
+
+        <!-- TRIP STYLE -->
+        <label class="label-title">Trip style</label>
+        <div class="box">
+            <select class="select">
+                <option>Not Relevant</option>
+                <option>Relaxing</option>
+                <option>Adventure</option>
+                <option>Cultural</option>
+            </select>
+        </div>
+
+        <!-- MAX BUDGET -->
+        <label class="label-title">Max budget</label>
+        <div class="duration">
+            <span class="dollar">$</span>
+            <input type="number" class="input" value="5000">
+        </div>
+
+        <!-- TRANSPORT METHOD -->
+        <label class="label-title">Transportation method</label>
+        <div class="box">
+            <select class="select">
+                <option>Not Relevant</option>
+                <option>Car</option>
+                <option>Bus</option>
+                <option>Flight</option>
+                <option>Train</option>
+            </select>
+        </div>
+
+        <!-- BOTTOM BUTTON ROW -->
+        <div class="button-row">
+            <button class="circle-btn">✏️</button>
+            <button class="main-btn">▶</button>
+        </div>
+
+        <!-- HOME ICON -->
+        <div onclick="location.href='index.html'" class="home-icon">🏠</div>
+
+    </div>
+
+</body>
+</html>

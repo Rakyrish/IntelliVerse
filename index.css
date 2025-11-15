@@ -1,0 +1,80 @@
+body {
+    background: #0f0f17;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 90%;
+    margin: auto;
+}
+
+/* ROW containing: card + i button */
+.app-row {
+    display: flex;
+    align-items: center;        /* keep both aligned */
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* App Card */
+.app-card {
+    background: #b7c4ff;
+    padding: 22px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    /* center icon + text */
+    flex: 1;                    /* take full available space */
+}
+
+/* Icon + name */
+.app-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.app-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #1c1c3d;
+}
+
+/* Info Button */
+.info-btn {
+    background: #9bb3ff;
+    border: none;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    margin-left: 12px;          /* spacing away from card */
+}
