@@ -126,7 +126,8 @@ body {
 
 .select {
     width: 100%;
-    background: none;
+       background: #1d1d24;
+
     border: none;
     color: #c4c4ff;
     font-size: 18px;

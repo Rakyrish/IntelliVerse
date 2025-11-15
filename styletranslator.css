@@ -108,7 +108,7 @@ body {
 
 .dropdown select {
   width: 100%;
-  background: none;
+    background: #1d1d24;
   border: none;
   color: #d9d9e6;
   font-size: 18px;
